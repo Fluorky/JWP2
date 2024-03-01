@@ -47,24 +47,24 @@ class TicTacToe:
         self.board[space] = mark
 
     def play_game(self):
-        print('Witaj w grze kółko i krzyżyk!')
+        print('Welcome to Tic-Tac-Toe!')
         while True:
             print(self.get_board_str())
             move = None
             while not self.is_valid_space(move):
-                print(f'Jaki jest ruch gracza {self.current_player}? (1-9)')
+                print(f"What's {self.current_player}'s move? (1-9)")
                 move = input()
             self.update_board(move, self.current_player)
             if self.is_winner(self.current_player):
                 print(self.get_board_str())
-                print(f'{self.current_player} wygrał grę!')
+                print(f'{self.current_player} wins!')
                 break
             elif self.is_board_full():
                 print(self.get_board_str())
-                print('Gra zakończyła się remisem!')
+                print('The game is a tie!')
                 break
             self.current_player = self.O if self.current_player == self.X else self.X
-        print('Dziękuję za grę!')
+        print('Thanks for playing!')
 
 
 if __name__ == '__main__':

@@ -1,5 +1,6 @@
 from math import sqrt
 
+
 class Vector3D:
     def __init__(self, x, y, z):
         self.x = x
@@ -31,10 +32,10 @@ class Vector3D:
         return Vector3D(cx, cy, cz)
 
     @staticmethod
-    def are_orthogonal(vec1, vec2):
-        return vec1.dot(vec2) == 0
+    def are_orthogonal(vec_1, vec_2):
+        return vec_1.dot(vec_2) == 0
 
-# Przykładowe użycie klasy Vector3D
+
 if __name__ == "__main__":
     vec1 = Vector3D(1, 2, 3)
     vec2 = Vector3D(4, 5, 6)

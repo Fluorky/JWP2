@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dd8a3a3-477b-4bcb-9714-52055d9b4b1a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zaj1/Vector3D.py" beforeDir="false" afterPath="$PROJECT_DIR$/zaj1/Vector3D.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zaj1/konto_bankowe.py" beforeDir="false" afterPath="$PROJECT_DIR$/zaj1/bank_account.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zaj1/ox.py" beforeDir="false" afterPath="$PROJECT_DIR$/zaj1/ox.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zaj1/punkt2d.py" beforeDir="false" afterPath="$PROJECT_DIR$/zaj1/point2d.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +101,8 @@
       <option name="presentableId" value="Default" />
       <updated>1709197724918</updated>
       <workItem from="1709197726785" duration="1198000" />
-      <workItem from="1709199080895" duration="53000" />
+      <workItem from="1709199080895" duration="1418000" />
+      <workItem from="1709202409076" duration="1407000" />
     </task>
     <servers />
   </component>
