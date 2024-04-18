@@ -15,7 +15,7 @@ for state in states:
 
 # 2. Count population in Alaska and New York in 2000 and 2008
 def count_population(state, year):
-    cursor.execute("SELECT SUM(population) FROM census WHERE state=? AND year=?", (state, year))
+    cursor.execute(f"SELECT SUM(pop{year}) FROM census WHERE state=?", (state,))
     population = cursor.fetchone()[0]
     return population
 
@@ -30,8 +30,10 @@ print("Population in New York in 2000:", new_york_2000)
 print("Population in New York in 2008:", new_york_2008)
 
 # 3. Count number of males and females in New York in 2008
-cursor.execute("SELECT SUM(male_population), SUM(female_population) FROM census WHERE state=? AND year=?", ('New York', 2008))
-male_population, female_population = cursor.fetchone()
+cursor.execute("SELECT SUM(pop2008) FROM census WHERE state=? AND sex=?", ('New York', 'M'))
+male_population = cursor.fetchone()[0]
+cursor.execute("SELECT SUM(pop2008) FROM census WHERE state=? AND sex=?", ('New York', 'F'))
+female_population = cursor.fetchone()[0]
 print("\nNumber of males in New York in 2008:", male_population)
 print("Number of females in New York in 2008:", female_population)
 
