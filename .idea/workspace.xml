@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dd8a3a3-477b-4bcb-9714-52055d9b4b1a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes2/census.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes2/crud_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes2/introduction_to_databases.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes2/tasks.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zaj1/Vector3D.py" beforeDir="false" afterPath="$PROJECT_DIR$/zaj1/Vector3D.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zaj1/konto_bankowe.py" beforeDir="false" afterPath="$PROJECT_DIR$/zaj1/bank_account.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zaj1/ox.py" beforeDir="false" afterPath="$PROJECT_DIR$/zaj1/ox.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zaj1/punkt2d.py" beforeDir="false" afterPath="$PROJECT_DIR$/zaj1/point2d.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +54,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/classes2" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="ox" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="JWP2" />
@@ -102,7 +106,16 @@
       <updated>1709197724918</updated>
       <workItem from="1709197726785" duration="1198000" />
       <workItem from="1709199080895" duration="1418000" />
-      <workItem from="1709202409076" duration="1407000" />
+      <workItem from="1709202409076" duration="2476000" />
+      <workItem from="1709631035152" duration="419000" />
+      <workItem from="1709721471482" duration="454000" />
+      <workItem from="1709760593805" duration="440000" />
+      <workItem from="1710335471005" duration="215000" />
+      <workItem from="1710871445350" duration="305000" />
+      <workItem from="1711021455046" duration="69000" />
+      <workItem from="1711042139545" duration="213000" />
+      <workItem from="1712641839467" duration="579000" />
+      <workItem from="1712761119656" duration="1532000" />
     </task>
     <servers />
   </component>
